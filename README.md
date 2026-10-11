@@ -19,7 +19,9 @@ The profile image is an initials monogram, not a photograph. Replace `images/pro
 
 ## Host on GitHub Pages
 
-This repository is named `jiabao1314.github.io`. In **Settings → Pages**, choose **Deploy from a branch**, then **master** and **/ (root)**. GitHub will build the Jekyll source. The intended website address is https://jiabao1314.github.io/ once deployment succeeds.
+This repository is named `jiabao1314.github.io`, and GitHub Pages is enabled. The live website is https://jiabao1314.github.io/. Commits to `master` trigger a new deployment.
+
+To reproduce the hosting setup, in **Settings → Pages**, choose **Deploy from a branch**, then **master** and **/ (root)**.
 
 The validation workflow separately checks the Jekyll build on each push. It does not change Pages settings.
 
